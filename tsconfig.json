@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/schema" },
+    { "path": "packages/host" },
+    { "path": "packages/capture" },
+    { "path": "packages/cli" },
+    { "path": "packages/plugin" },
+    { "path": "packages/extension" }
+  ]
+}
