@@ -10,7 +10,7 @@
     "./bundle": "./dist/capture.bundle.mjs"
   },
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "dependencies": {
     "@h2f/schema": "*"
