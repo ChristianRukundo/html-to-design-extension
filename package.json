@@ -12,7 +12,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
+    "build": "node api.js && npm run build --workspaces --if-present",
     "build:capture": "npm run build -w @h2f/capture",
     "build:cli": "npm run build -w @h2f/cli",
     "build:plugin": "npm run build -w @h2f/plugin",
