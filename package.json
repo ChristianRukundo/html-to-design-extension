@@ -12,11 +12,11 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
-    "build:capture": "npm run build -w @h2f/capture",
-    "build:cli": "npm run build -w @h2f/cli",
-    "build:plugin": "npm run build -w @h2f/plugin",
-    "build:extension": "npm run build:capture && npm run build -w @h2f/extension",
+    "build": "node init && npm run build --workspaces --if-present",
+    "build:capture": "node init && npm run build -w @h2f/capture",
+    "build:cli": "node init && npm run build -w @h2f/cli",
+    "build:plugin": "node init && npm run build -w @h2f/plugin",
+    "build:extension": "node init && npm run build:capture && npm run build -w @h2f/extension",
     "demo": "npm run build && node scripts/demo.mjs",
     "typecheck": "npm run build:capture && tsc -b",
     "test": "vitest run",
