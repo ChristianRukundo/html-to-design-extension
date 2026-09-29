@@ -8,7 +8,7 @@
   },
   "main": "./src/index.ts",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "dependencies": {
     "@h2f/capture": "*",

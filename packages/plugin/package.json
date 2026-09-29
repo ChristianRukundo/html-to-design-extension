@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node init && node build.mjs",
     "watch": "node build.mjs --watch"
   },
   "dependencies": {

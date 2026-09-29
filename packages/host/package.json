@@ -9,7 +9,7 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc -b"
+    "build": "node init && tsc -b"
   },
   "dependencies": {
     "@h2f/schema": "*"
